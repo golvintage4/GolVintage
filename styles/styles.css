@@ -1,0 +1,355 @@
+/* =====================================
+   VARIABLES PRINCIPALES (COLORES)
+===================================== */
+:root {
+  --fondo-principal: #ffffff;
+  --fondo-secundario: #12172A;
+  --fondo-producto: #1A2238;
+  --acento-principal: #1E90FF;
+  --acento-secundario: #4FC3F7;
+  --texto-principal: #FFFFFF;
+  --texto-secundario: #AAB4C0;
+  --texto-oscuro: #000000;
+  --boton-cta: #2979FF;
+  --hover-boton: #1565C0;
+  --lineas: #2C3E50;
+}
+
+/* =====================================
+   ESTILOS GENERALES
+===================================== */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding-top: 88px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: var(--fondo-principal);
+  color: var(--texto-principal);
+}
+
+h1, h2, h5 {
+  color: var(--texto-principal);
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* =====================================
+   TEXTOS UTILES
+===================================== */
+.text-skyblue {
+  color: var(--acento-principal);
+}
+
+.text-blanco {
+  color: #FFFFFF;
+}
+
+.text-secondary {
+  color: rgba(170, 180, 192, 1);
+}
+
+.text-primary-accent {
+  color: rgb(108, 175, 242);
+}
+
+.text-black {
+  color: var(--texto-oscuro)
+}
+
+/* =====================================
+   ESTILO DE CARDS GENERALES
+===================================== */
+.card {
+  background-color: var(--fondo-principal);
+  border: none;
+  color: var(--texto-principal);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card .btn-primary {
+  background-color: var(--boton-cta);
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px transparent;
+}
+
+.card .btn-primary:hover {
+  background-color: var(--hover-boton);
+  box-shadow: 0 0 15px #2979FF, 0 0 25px #2979FF;
+}
+
+.btn-success {
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px transparent;
+}
+
+.btn-success:hover {
+  box-shadow: 0 0 5px #00ffcc, 0 0 10px #00ffcc;
+}
+
+/* Para tarjetas sin efecto de hover (como las de detalle) */
+.card-no-hover:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.card-img-top {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+}
+/* =====================================
+   BOTONES TIPO BANNER COMPACTOS CON TEXTO CENTRADO COMO BOTÓN
+===================================== */
+.filtro-card {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.filtro-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.85);
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.filtro-card:hover .filtro-img {
+  transform: scale(1.05);
+  filter: brightness(1);
+}
+
+.filtro-card:hover {
+  transform: scale(1.03);
+}
+
+.filtro-card .overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0.4rem 1.2rem;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  white-space: nowrap;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  transition: background 0.3s ease;
+}
+
+.filtro-card:hover .overlay-text {
+  background: rgba(30, 144, 255, 0.8);
+}
+
+.filtro-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.06), transparent 70%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.filtro-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 8px rgba(30, 144, 255, 0.4);
+}
+
+/* =====================================
+   BANNER / HERO
+===================================== */
+.banner-img {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.banner-img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(11, 14, 28, 1), rgba(11, 14, 28, 0.5));
+  z-index: 1;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 2;
+  padding: 2rem;
+  color: #FFFFFF;
+  text-align: left;
+  max-width: 50%;
+}
+
+.text-left {
+  justify-content: flex-start;
+}
+
+.text-right {
+  justify-content: flex-end;
+}
+
+.banner-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.banner-content a.btn {
+  background-color: var(--boton-cta);
+  border: none;
+}
+
+.banner-content a.btn:hover {
+  background-color: var(--hover-boton);
+}
+
+/* =====================================
+   BADGES DE TIPO DE PRODUCTO
+===================================== */
+.badge-tipo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: var(--acento-secundario);
+  color: var(--texto-principal);
+  padding: 0.3rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border-radius: 5px;
+  z-index: 10;
+  text-transform: uppercase;
+  box-shadow: 0 0 5px #4FC3F799;
+}
+
+.badge-tipo.retro {
+  background-color: #4FC3F7;
+}
+
+.badge-tipo.actual {
+  background-color: #00E676;
+}
+
+/* =====================================
+   ANIMACIONES DE APARICIÓN
+===================================== */
+.animated-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease-out;
+}
+
+.animated-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* =====================================
+   RESPONSIVE - AJUSTES PARA CELULARES
+===================================== */
+@media (max-width: 768px) {
+  body {
+    padding-top: 64px;
+  }
+
+  h1, h2, h5 {
+    font-size: 1.5rem;
+  }
+
+.banner-img {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* por defecto centrado horizontal */
+}
+  .banner-content {
+    max-width: 100%;
+    padding: 1.2rem;
+    text-align: center;
+  }
+
+  .banner-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .filtro-card {
+    height: 160px;
+  }
+
+  .filtro-card .overlay-text {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.8rem;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  .badge-tipo {
+    font-size: 0.65rem;
+    padding: 0.25rem 0.5rem;
+  }
+
+  .btn, .btn-primary, .btn-success {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .btn-navegacion {
+    padding: 8px 14px;
+    font-size: 0.9rem;
+  }
+
+  .btn-fullscreen {
+    font-size: 1rem;
+    padding: 3px 6px;
+    right: 6px;
+    top: 6px;
+  }
+
+  .carousel-item img {
+    max-height: 75vh;
+    max-width: 100vw;
+  }
+
+  .modal-body {
+    justify-content: space-between !important;
+  }
+}

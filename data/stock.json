@@ -1,0 +1,210 @@
+[
+    {
+      "id": 1,
+      "nombre": "Milan 98/99",
+      "equipo": "Milan",
+      "temporada": "98/99",
+      "precio": 99.90,
+      "tipo": "club retro",
+      "liga": "italia",
+      "tallas": "XL",
+      "jugador": "Shevchenko",
+      "dorsal": "7",
+      "salida": "Titular",
+      "corte": "Manga Corta",
+      "imagen": "./assets/img/Camisetas/Italia/Equipos/Milan/98-99/Milan 98-99 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/Italia/Equipos/Milan/98-99/Milan 98-99 dl.jpg",
+      "./assets/img/Camisetas/Italia/Equipos/Milan/98-99/Milan 98-99 rv.jpg",
+      "./assets/img/Camisetas/Italia/Equipos/Milan/98-99/Milan 98-99 rv.jpg",
+      "./assets/img/Camisetas/Italia/Equipos/Milan/98-99/Milan 98-99 rv.jpg"
+    ]
+    },
+    {
+      "id": 2,
+      "nombre": "Schalke 04 11/12",
+      "temporada": "11/12",
+      "equipo": "Schalke04",
+      "precio": 104.90,
+      "tipo": "club retro",
+      "liga": "alemania",
+      "tallas": "L",
+      "jugador": "Farfan",
+      "dorsal": "17",
+      "salida": "Titular",
+      "corte": "Manga Corta",
+      "imagen": "./assets/img/Camisetas/Alemania/Equipos/Schalke 04/11-12/Schalke04 11-12 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/Alemania/Equipos/Schalke 04/11-12/Schalke04 11-12 dl.jpg",
+      "./assets/img/Camisetas/Alemania/Equipos/Schalke 04/11-12/Schalke04 11-12 dl pr2.jpg",
+      "./assets/img/Camisetas/Alemania/Equipos/Schalke 04/11-12/Schalke04 11-12 dl pr1.jpg",
+      "./assets/img/Camisetas/Alemania/Equipos/Schalke 04/11-12/Schalke04 11-12 rv.jpg"
+    ]
+    },
+    {
+      "id": 3,
+      "nombre": "Francia 1996",
+      "temporada": "1996",
+      "equipo": "Francia",
+      "precio": 99.90,
+      "tipo": "seleccion retro",
+      "tallas": "L, XL",
+      "jugador": "Zidane",
+      "dorsal": "10",
+      "salida": "Titular",
+      "corte": "Manga Corta",
+      "imagen": "./assets/img/Camisetas/Francia/Seleccion/1996/Francia 96 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/Francia/Seleccion/1996/Francia 96 dl.jpg",
+      "./assets/img/Camisetas/Francia/Seleccion/1996/Francia 96 dl pr1.jpg",
+      "./assets/img/Camisetas/Francia/Seleccion/1996/Francia 96 rv pr2.jpg",
+      "./assets/img/Camisetas/Francia/Seleccion/1996/Francia 96 rv.jpg"
+    ]
+    },
+     {
+      "id": 4,
+      "nombre": "Holanda 1988",
+      "temporada": "1988",
+      "equipo": "Holanda",
+      "precio": 114.90,
+      "tipo": "seleccion retro",
+      "tallas": "XL",
+      "jugador": "Gullit",
+      "dorsal": "10",
+      "salida": "Titular",
+      "corte": "Manga Larga",
+      "imagen": "./assets/img/Camisetas/Holanda/Seleccion/1988/Holanda 88 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/Holanda/Seleccion/1988/Holanda 88 dl.jpg",
+      "./assets/img/Camisetas/Holanda/Seleccion/1988/Holanda 88 dl pr1.jpg",
+      "./assets/img/Camisetas/Holanda/Seleccion/1988/Holanda 88 rv pr1.jpg",
+      "./assets/img/Camisetas/Holanda/Seleccion/1988/Holanda 88 rv.jpg"
+    ]
+    },
+     {
+      "id": 5,
+      "nombre": "Brasil 1994",
+      "temporada": "1994",
+      "equipo": "Brasil",
+      "precio": 99.90,
+      "tipo": "seleccion retro",
+      "tallas": "M, L",
+      "jugador": "Romário",
+      "dorsal": "11",
+      "salida": "Titular",
+      "corte": "Manga Corta",
+      "imagen": "./assets/img/Camisetas/Brasil/Seleccion/1994/Brasil 94 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/Brasil/Seleccion/1994/Brasil 94 dl.jpg",
+      "./assets/img/Camisetas/Brasil/Seleccion/1994/Brasil 94 dl pr1.jpg",
+      "./assets/img/Camisetas/Brasil/Seleccion/1994/Brasil 94 rv pr1.jpg",
+      "./assets/img/Camisetas/Brasil/Seleccion/1994/Brasil 94 rv.jpg"
+    ]
+    },
+     {
+      "id": 6,
+      "nombre": "Milan 06-07",
+      "temporada": "06-07",
+      "equipo": "Milan",
+      "precio": 109.90,
+      "tipo": "club retro",
+      "liga": "italia",
+      "tallas": "L",
+      "jugador": "Kaka'",
+      "dorsal": "22",
+      "salida": "Titular",
+      "corte": "Manga Corta",
+      "imagen": "./assets/img/Camisetas/Italia/Equipos/Milan/06-07/Milan 06-07 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/Italia/Equipos/Milan/06-07/Milan 06-07 dl.jpg",
+      "./assets/img/Camisetas/Italia/Equipos/Milan/06-07/Milan 06-07 dl pr1.jpg",
+      "./assets/img/Camisetas/Italia/Equipos/Milan/06-07/Milan 06-07 rv pr1.jpg",
+      "./assets/img/Camisetas/Italia/Equipos/Milan/06-07/Milan 06-07 rv.jpg"
+    ]
+    },
+     {
+      "id": 7,
+      "nombre": "Milan 06-07 Alternativa",
+      "temporada": "06-07",
+      "equipo": "Milan",
+      "precio": 109.90,
+      "tipo": "club retro",
+      "liga": "italia",
+      "tallas": "L",
+      "jugador": "Kaka'",
+      "dorsal": "22",
+      "salida": "Alternativa",
+      "corte": "Manga Corta",
+      "imagen": "./assets/img/Camisetas/Italia/Equipos/Milan/06-07/Alternativo/Milan 06-07 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/Italia/Equipos/Milan/06-07/Alternativo/Milan 06-07 dl.jpg",
+      "./assets/img/Camisetas/Italia/Equipos/Milan/06-07/Alternativo/Milan 06-07 dl pr1.jpg",
+      "./assets/img/Camisetas/Italia/Equipos/Milan/06-07/Alternativo/Milan 06-07 rv pr1.jpg",
+      "./assets/img/Camisetas/Italia/Equipos/Milan/06-07/Alternativo/Milan 06-07 rv.jpg"
+    ]
+    },
+     {
+      "id": 8,
+      "nombre": "Juventus 18-19",
+      "temporada": "18-19",
+      "equipo": "Juventus",
+      "precio": 119.90,
+      "tipo": "club retro",
+      "liga": "italia",
+      "tallas": "L",
+      "jugador": "Ronaldo",
+      "dorsal": "7",
+      "salida": "Titular",
+      "corte": "Manga Corta",
+      "imagen": "./assets/img/Camisetas/Italia/Equipos/Juventus/18-19/Juv 18-19 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/Italia/Equipos/Juventus/18-19/Juv 18-19 dl.jpg",
+      "./assets/img/Camisetas/Italia/Equipos/Juventus/18-19/Juv 18-19 dl pr1.jpg",
+      "./assets/img/Camisetas/Italia/Equipos/Juventus/18-19/Juv 18-19 rv pr1.jpg",
+      "./assets/img/Camisetas/Italia/Equipos/Juventus/18-19/Juv 18-19 rv.jpg"
+    ]
+    },
+     {
+      "id": 9,
+      "nombre": "Barcelona 24-25 Cob Travis Scott - Versión 1",
+      "temporada": "24-25",
+      "equipo": "Barcelona",
+      "precio": 95.90,
+      "tipo": "club actual",
+      "liga": "españa",
+      "tallas": "M, L",
+      "jugador": "Lamine Yamal",
+      "dorsal": "19",
+      "salida": "Alternativa",
+      "corte": "Manga Corta",
+      "imagen": "./assets/img/Camisetas/España/Equipos/Barcelona/24-25/Cob Travis Scott/Alternativa 1/Barcelona 24-25 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/España/Equipos/Barcelona/24-25/Cob Travis Scott/Alternativa 1/Barcelona 24-25 dl.jpg",
+      "./assets/img/Camisetas/España/Equipos/Barcelona/24-25/Cob Travis Scott/Alternativa 1/Barcelona 24-25 dl pr1.jpg",
+      "./assets/img/Camisetas/España/Equipos/Barcelona/24-25/Cob Travis Scott/Alternativa 1/Barcelona 24-25 dl pr2.jpg",
+      "./assets/img/Camisetas/España/Equipos/Barcelona/24-25/Cob Travis Scott/Alternativa 1/Barcelona 24-25 rv.jpg"
+    ]
+    },
+     {
+      "id": 10,
+      "nombre": "Real Madrid 13-14 Alernativa - Manga Larga",
+      "temporada": "13-14",
+      "equipo": "Real Madrid",
+      "precio": 129.90,
+      "tipo": "club retro",
+      "liga": "españa",
+      "tallas": "M, L, XL",
+      "jugador": "Ronaldo",
+      "dorsal": "7",
+      "salida": "Alternativa",
+      "corte": "Manga Larga",
+      "imagen": "./assets/img/Camisetas/España/Equipos/Real Madrid/13-14/Alternativa/Manga Larga/RM 13-14 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/España/Equipos/Real Madrid/13-14/Alternativa/Manga Larga/RM 13-14 dl.jpg",
+      "./assets/img/Camisetas/España/Equipos/Real Madrid/13-14/Alternativa/Manga Larga/RM 13-14 dl pr1.jpg",
+      "./assets/img/Camisetas/España/Equipos/Real Madrid/13-14/Alternativa/Manga Larga/RM 13-14 rv pr1.jpg",
+      "./assets/img/Camisetas/España/Equipos/Real Madrid/13-14/Alternativa/Manga Larga/RM 13-14 rv.jpg"
+    ]
+    }
+  ]
+  

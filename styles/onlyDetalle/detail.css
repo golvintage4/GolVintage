@@ -1,0 +1,314 @@
+/* =====================================
+   VARIABLES PRINCIPALES (COLORES)
+===================================== */
+:root {
+  --fondo-principal: #ffffff;
+  --fondo-secundario: #12172A;
+  --fondo-producto: #1A2238;
+  --acento-principal: #1E90FF;
+  --acento-secundario: #4FC3F7;
+  --texto-principal: #FFFFFF;
+  --texto-secundario: #AAB4C0;
+  --texto-oscuro: #000000;
+  --boton-cta: #2979FF;
+  --hover-boton: #1565C0;
+  --lineas: #2C3E50;
+}
+
+/* =====================================
+   CONTENEDOR GENERAL
+===================================== */
+/* Asegura márgenes laterales para evitar que quede pegado al borde */
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.transparent-table {
+  background-color: transparent;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.transparent-table th,
+.transparent-table td {
+  background-color: transparent;
+  border: 1px solid var(--texto-oscuro); /* bordes visibles y sutiles */
+  padding: 12px 16px;
+  color: var(--texto-principal); /* blanco o tu variable */
+}
+
+.transparent-table th {
+  color: var(--acento-secundario); /* o usa #4FC3F7 */
+  font-weight: bold;
+}
+
+.transparent-table td {
+  color: var(--texto-principal); /* blanco u otro definido */
+}
+/* =====================================
+   TARJETA DEL PRODUCTO
+===================================== */
+.card-des {
+  background-color: var(--fondo-principal);
+  color: var(--texto-principal);
+  transition: transform 0.3s ease;
+  border: none;
+}
+
+.custom-product-card {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+@media (min-width: 922px) {
+  .custom-product-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.custom-product-card:hover,
+.custom-product-card:focus {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* =====================================
+   CARRUSEL PRINCIPAL Y ZOOM
+===================================== */
+.carousel-inner {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+}
+
+#carouselFullscreen .carousel-item {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#carouselFullscreen .carousel-item.active {
+  display: flex !important; /* Mostrar solo el activo */
+}
+/* Contenedor del zoom adaptado */
+.zoom-container {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+/* Imagen con ajuste total */
+.zoom-container img.zoom-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+/* Imagen completamente visible sin recorte ni deformación */
+.zoom-img {
+  width: 100% !important; 
+  height: 100% !important; 
+  object-fit: cover !important;  /* Asegura que la imagen nunca se recorte ni deforme */
+  transition: transform 0.1s ease, transform-origin 0.1s ease;
+  cursor: zoom-in;
+}
+
+.btn-fullscreen {
+  z-index: 10;
+  font-size: 1.2rem;
+  background-color: rgba(255,255,255,0.8);
+  border: none;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+.modal-content {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.modal-body {
+  padding: 1rem;
+}
+
+.carousel-inner img {
+  width: auto;
+  height: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.btn-close-white {
+  filter: invert(1);
+}
+
+.btn.btn-light {
+  background-color: rgba(255, 255, 255, 0.85);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn-navegacion {
+  background-color: rgba(255, 255, 255, 0.85);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-navegacion:hover {
+  background-color: #ffffff;
+  color: #0d6efd; /* azul tipo Bootstrap */
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.modal-fullscreen {
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100%;
+  width: 100% !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 0;
+}
+/* Contenedor del carrusel */
+#carouselProducto .carousel-inner {
+  max-height: 100%;
+  overflow: hidden;
+}
+
+#carouselProducto .carousel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Miniaturas */
+#carouselThumbs {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  justify-content: center;
+  scroll-snap-type: x mandatory;
+}
+
+#carouselThumbs img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 6px;
+  cursor: pointer;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  border: 2px solid transparent;
+  transition: border 0.2s;
+}
+
+#carouselThumbs img.active {
+  border-color: var(--acento-principal, #1E90FF);
+}
+
+/* Responsive: ajustar altura en móviles */
+@media (max-width: 768px) {
+  #carouselProducto .carousel-inner {
+  width: 100%;
+  height: 100%;
+  }
+
+  #carouselThumbs img {
+  width: 100%;
+  height: 100%;
+  }
+}
+
+/* =====================================
+   MINIATURAS / THUMBS
+===================================== */
+#carouselThumbs {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.thumb-img {
+  flex: 1 1 0;
+  max-width: calc(100% / 4 - 0.5rem); /* Ajusta si hay menos */
+  max-height: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: fill;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  transition: border 0.3s, transform 0.2s;
+}
+
+.thumb-img:hover {
+  transform: scale(1.05);
+}
+
+.thumb-img.active {
+  border-color: var(--acento-principal);
+}
+
+/* =====================================
+   RESPONSIVE
+===================================== */
+@media (max-width: 768px) {
+  .row.g-4.align-items-start {
+    flex-direction: column;
+    gap: 2rem;
+  }
+ #carouselThumbs {
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  }
+  .custom-product-card {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .zoom-container {
+    aspect-ratio: 1 / 1;
+    max-height: none;
+  }
+   .zoom-img {
+    height: auto;
+    width: 100%;
+  }
+
+  .thumb-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* Ajuste para dar márgenes horizontales en móviles */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #detalle-producto-info {
+    margin-top: 1.5rem;
+  }
+}
+@media (max-width: 576px) {
+  #carouselThumbs {
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  }
+}
