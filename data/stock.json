@@ -65,7 +65,7 @@
       "id": 4,
       "nombre": "Holanda 1988",
       "temporada": "1988",
-      "equipo": "Holanda",
+      "equipo": "holanda",
       "precio": 114.90,
       "tipo": "seleccion retro",
       "tallas": "XL",
@@ -187,7 +187,7 @@
     },
      {
       "id": 10,
-      "nombre": "Real Madrid 13-14 Alernativa - Manga Larga",
+      "nombre": "Real Madrid 13-14 Alernativa Manga Larga",
       "temporada": "13-14",
       "equipo": "Real Madrid",
       "precio": 129.90,
@@ -204,6 +204,175 @@
       "./assets/img/Camisetas/España/Equipos/Real Madrid/13-14/Alternativa/Manga Larga/RM 13-14 dl pr1.jpg",
       "./assets/img/Camisetas/España/Equipos/Real Madrid/13-14/Alternativa/Manga Larga/RM 13-14 rv pr1.jpg",
       "./assets/img/Camisetas/España/Equipos/Real Madrid/13-14/Alternativa/Manga Larga/RM 13-14 rv.jpg"
+    ]
+    },
+     {
+      "id": 11,
+      "nombre": "Barcelona 03-04 Alernativa Manga Larga",
+      "temporada": "03-04",
+      "equipo": "Barcelona",
+      "precio": 114.90,
+      "tipo": "club retro",
+      "liga": "españa",
+      "tallas": "XL",
+      "jugador": "Ronaldinho",
+      "dorsal": "10",
+      "salida": "Alternativa",
+      "corte": "Manga Larga",
+      "imagen": "./assets/img/Camisetas/España/Equipos/Barcelona/03-04/Alternativa/Manga Larga/Barcelona 03-04 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/España/Equipos/Barcelona/03-04/Alternativa/Manga Larga/Barcelona 03-04 dl.jpg",
+      "./assets/img/Camisetas/España/Equipos/Barcelona/03-04/Alternativa/Manga Larga/Barcelona 03-04 dl pr1.jpg",
+      "./assets/img/Camisetas/España/Equipos/Barcelona/03-04/Alternativa/Manga Larga/Barcelona 03-04 rv pr1.jpg",
+      "./assets/img/Camisetas/España/Equipos/Barcelona/03-04/Alternativa/Manga Larga/Barcelona 03-04 rv.jpg"
+    ]
+    },
+     {
+      "id": 12,
+      "nombre": "Bayern Munich 05-06",
+      "temporada": "05-06",
+      "equipo": "Bayern Munich",
+      "precio": 99.90,
+      "tipo": "club retro",
+      "liga": "alemania",
+      "tallas": "L",
+      "jugador": "Ballack",
+      "dorsal": "13",
+      "salida": "Titular",
+      "corte": "Manga Corta",
+      "imagen": "./assets/img/Camisetas/Alemania/Equipos/Bayern Munich/05-06/Bayern 05-06 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/Alemania/Equipos/Bayern Munich/05-06/Bayern 05-06 dl.jpg",
+      "./assets/img/Camisetas/Alemania/Equipos/Bayern Munich/05-06/Bayern 05-06 dl pr1.jpg",
+      "./assets/img/Camisetas/Alemania/Equipos/Bayern Munich/05-06/Bayern 05-06 rv pr1.jpg",
+      "./assets/img/Camisetas/Alemania/Equipos/Bayern Munich/05-06/Bayern 05-06 rv.jpg"
+    ]
+    }
+    ,
+     {
+      "id": 13,
+      "nombre": "PSG 01-02",
+      "temporada": "01-02",
+      "equipo": "Paris Saint Germain",
+      "precio": 99.90,
+      "tipo": "club retro",
+      "liga": "francia",
+      "tallas": "L, XL",
+      "jugador": "Ronaldinho",
+      "dorsal": "21",
+      "salida": "Titular",
+      "corte": "Manga Corta",
+      "imagen": "./assets/img/Camisetas/Francia/Equipos/PSG/01-02/PSG 01-02 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/Francia/Equipos/PSG/01-02/PSG 01-02 dl.jpg",
+      "./assets/img/Camisetas/Francia/Equipos/PSG/01-02/PSG 01-02 dl pr1.jpg",
+      "./assets/img/Camisetas/Francia/Equipos/PSG/01-02/PSG 01-02 rv pr1.jpg",
+      "./assets/img/Camisetas/Francia/Equipos/PSG/01-02/PSG 01-02 rv.jpg"
+    ]
+    },
+     {
+      "id": 14,
+      "nombre": "M.United 98-99 Manga Larga",
+      "temporada": "98-99",
+      "equipo": "Manchester United",
+      "precio": 114.90,
+      "tipo": "club retro",
+      "liga": "inglaterra",
+      "tallas": "XL",
+      "jugador": "Beckham",
+      "dorsal": "7",
+      "salida": "Titular",
+      "corte": "Manga Larga",
+      "imagen": "./assets/img/Camisetas/Inglaterra/Equipos/M.United/98-99/Manga Larga/M.United 98-99 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/Inglaterra/Equipos/M.United/98-99/Manga Larga/M.United 98-99 dl.jpg",
+      "./assets/img/Camisetas/Inglaterra/Equipos/M.United/98-99/Manga Larga/M.United 98-99 dl pr1.jpg",
+      "./assets/img/Camisetas/Inglaterra/Equipos/M.United/98-99/Manga Larga/M.United 98-99 rv pr1.jpg",
+      "./assets/img/Camisetas/Inglaterra/Equipos/M.United/98-99/Manga Larga/M.United 98-99 rv.jpg"
+    ]
+    },
+     {
+      "id": 15,
+      "nombre": "Sportind de Lisboa 02-03",
+      "temporada": "02-03",
+      "equipo": "Sportind de Lisboa",
+      "precio": 99.90,
+      "tipo": "club retro",
+      "liga": "Otros",
+      "tallas": "L",
+      "jugador": "C.Ronaldo",
+      "dorsal": "28",
+      "salida": "Titular",
+      "corte": "Manga Corta",
+      "imagen": "./assets/img/Camisetas/Otros/Portugal/Equipos/S.Lisboa/02-03/S.Lisboa 02-03 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/Otros/Portugal/Equipos/S.Lisboa/02-03/S.Lisboa 02-03 dl.jpg",
+      "./assets/img/Camisetas/Otros/Portugal/Equipos/S.Lisboa/02-03/S.Lisboa 02-03 dl pr1.jpg",
+      "./assets/img/Camisetas/Otros/Portugal/Equipos/S.Lisboa/02-03/S.Lisboa 02-03 rv pr1.jpg",
+      "./assets/img/Camisetas/Otros/Portugal/Equipos/S.Lisboa/02-03/S.Lisboa 02-03 rv.jpg"
+    ]
+    },
+     {
+      "id": 16,
+      "nombre": "Chelsea 06-07",
+      "temporada": "06-07",
+      "equipo": "Chelsea",
+      "precio": 99.90,
+      "tipo": "club retro",
+      "liga": "inglaterra",
+      "tallas": "L",
+      "jugador": "Drogba",
+      "dorsal": "11",
+      "salida": "Titular",
+      "corte": "Manga Corta",
+      "imagen": "./assets/img/Camisetas/Inglaterra/Equipos/Chelsea/06-07/Chelsea 06-07 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/Inglaterra/Equipos/Chelsea/06-07/Chelsea 06-07 dl.jpg",
+      "./assets/img/Camisetas/Inglaterra/Equipos/Chelsea/06-07/Chelsea 06-07 dl pr1.jpg",
+      "./assets/img/Camisetas/Inglaterra/Equipos/Chelsea/06-07/Chelsea 06-07 rv pr1.jpg",
+      "./assets/img/Camisetas/Inglaterra/Equipos/Chelsea/06-07/Chelsea 06-07 rv.jpg"
+    ]
+    },
+     {
+      "id": 17,
+      "nombre": "Inter de Milan 09-10",
+      "temporada": "09-10",
+      "equipo": "Inter de Milan",
+      "precio": 99.90,
+      "tipo": "club retro",
+      "liga": "italia",
+      "tallas": "L",
+      "jugador": "J.Zanetti",
+      "dorsal": "4",
+      "salida": "Titular",
+      "corte": "Manga Corta",
+      "imagen": "./assets/img/Camisetas/Italia/Equipos/Inter/09-10/Inter 09-10 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/Italia/Equipos/Inter/09-10/Inter 09-10 dl.jpg",
+      "./assets/img/Camisetas/Italia/Equipos/Inter/09-10/Inter 09-10 dl pr1.jpg",
+      "./assets/img/Camisetas/Italia/Equipos/Inter/09-10/Inter 09-10 rv pr1.jpg",
+      "./assets/img/Camisetas/Italia/Equipos/Inter/09-10/Inter 09-10 rv.jpg"
+    ]
+    },
+     {
+      "id": 18,
+      "nombre": "Barcelona 08-09",
+      "temporada": "08-09",
+      "equipo": "Barcelona",
+      "precio": 99.90,
+      "tipo": "club retro",
+      "liga": "españa",
+      "tallas": "L",
+      "jugador": "Messi",
+      "dorsal": "10",
+      "salida": "Titular",
+      "corte": "Manga Corta",
+      "imagen": "./assets/img/Camisetas/España/Equipos/Barcelona/08-09/Barcelona 08-09 dl.jpg",
+      "imagenes": [
+      "./assets/img/Camisetas/España/Equipos/Barcelona/08-09/Barcelona 08-09 dl.jpg",
+      "./assets/img/Camisetas/España/Equipos/Barcelona/08-09/Barcelona 08-09 dl pr1.jpg",
+      "./assets/img/Camisetas/España/Equipos/Barcelona/08-09/Barcelona 08-09 rv pr1.jpg",
+      "./assets/img/Camisetas/España/Equipos/Barcelona/08-09/Barcelona 08-09 rv.jpg"
     ]
     }
   ]

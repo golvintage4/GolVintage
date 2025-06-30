@@ -1,28 +1,106 @@
+/* =====================================
+   VARIABLES PRINCIPALES (COLORES)
+===================================== */
+:root {
+  --fondo-principal: #ffffff;
+  --fondo-secundario: #12172A;
+  --fondo-producto: #1A2238;
+  --acento-principal: #1E90FF;
+  --acento-secundario: #4FC3F7;
+  --texto-principal: #FFFFFF;
+  --texto-secundario: #AAB4C0;
+  --texto-oscuro: #000000;
+  --boton-cta: #2979FF;
+  --hover-boton: #1565C0;
+  --lineas: #2C3E50;
+}
+
 
 footer {
-    background-color: #000000;
-    color: #FFFFFF;
-    padding: 2rem 1rem;
-  }
+  color: var(--texto-principal);
+}
 
-  footer h5 {
-    font-weight: bold;
-  }
+footer h5 {
+  font-weight: bold;
+}
 
-  footer ul {
-    list-style: none;
-    padding: 0;
-  }
+footer ul {
+  list-style: none;
+  padding: 0;
+}
 
-  footer ul li {
-    margin: 0.3rem 0;
-  }
+footer ul li {
+  margin: 0.3rem 0;
+}
 
-  footer a {
-    color: #4FC3F7;
-    text-decoration: none;
-  }
+footer a {
+  color: #4FC3F7;
+  text-decoration: none;
+}
 
-  footer a:hover {
-    text-decoration: underline;
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-prin {
+  background-color: var(--fondo-producto);
+}
+
+.footer-social {
+  position: relative;
+  background-image: url('../assets/img/Fondo/Botones/roman.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 20 / 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.footer-social::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(11, 14, 28, 1), rgba(11, 14, 28, 0.5));
+  z-index: 1;
+  pointer-events: none;
+}
+
+.footer-social a {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+}
+
+.footer-social a svg {
+  transition: transform 0.3s ease, filter 0.3s ease, fill 0.3s ease;
+  fill: white;
+}
+
+.footer-social a[href*="tiktok"]:hover svg {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 4px #00f2ea) drop-shadow(0 0 6px #ff0050);
+}
+
+.footer-social a[href*="instagram"]:hover svg {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 3px #f58529) 
+          drop-shadow(0 0 6px #dd2a7b)
+          drop-shadow(0 0 9px #8134af)
+          drop-shadow(0 0 12px #515bd4);
+}
+
+
+.footer-social a[href*="facebook"]:hover svg {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 4px #1877F2) drop-shadow(0 0 6px #1877F2);
+}
+
+
+@media (max-width: 756px) {
+  .footer-social {
+    aspect-ratio: 16 / 8;
   }
+}

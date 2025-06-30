@@ -1,3 +1,20 @@
+/* =====================================
+   VARIABLES PRINCIPALES (COLORES)
+===================================== */
+:root {
+  --fondo-principal: #ffffff;
+  --fondo-secundario: #12172A;
+  --fondo-producto: #1A2238;
+  --acento-principal: #1E90FF;
+  --acento-secundario: #4FC3F7;
+  --texto-principal: #FFFFFF;
+  --texto-secundario: #AAB4C0;
+  --texto-oscuro: #000000;
+  --boton-cta: #2979FF;
+  --hover-boton: #1565C0;
+  --lineas: #2C3E50;
+}
+
 .custom-section {
   padding: 4rem 2rem;
 }
@@ -16,7 +33,7 @@
 
 .card-custom {
   --tw-bg-opacity: 1;
-  background-color: rgb(26 34 56 / var(--tw-bg-opacity, 1));
+  background-color: var(--fondo-producto);
   border: 1px solid #2C2F40;
   border-radius: 12px;
   padding: 1.5rem;

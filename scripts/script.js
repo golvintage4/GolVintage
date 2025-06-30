@@ -162,7 +162,7 @@ $(document).ready(function () {
       return temporadaB - temporadaA;
     });
 
-    const porPagina = 8;
+    const porPagina = 12;
     const totalPaginas = Math.ceil(productosFiltrados.length / porPagina);
     const inicio = (pagina - 1) * porPagina;
     const fin = inicio + porPagina;
@@ -176,7 +176,7 @@ $(document).ready(function () {
       }
 
       const tarjeta = $(`
-        <div class="col-12 col-md-6 col-lg-3 d-flex mb-4 tarjeta-producto fade-in" 
+        <div class="col-6 col-md-6 col-lg-3 d-flex mb-4 tarjeta-producto fade-in" 
              data-tipo="${(producto.tipo || '').toLowerCase()}"
              data-liga="${(producto.liga || '').toLowerCase()}"
              data-equipo="${(producto.equipo || '').toLowerCase()}">
